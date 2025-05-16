@@ -8,6 +8,7 @@
     [clojure.tools.deps :as deps]))
 
 (def my-deps '{:deps {org.clojure/clojure {:mvn/version "1.11.1"}
+                      clj-kondo/clj-kondo {:mvn/version "2022.04.26-20220502.201054-5"}
                       babashka/fs {:mvn/version "0.1.5"}
                       javax.activation/javax.activation-api {:mvn/version "1.2.0"}}})
 
